@@ -52,7 +52,6 @@ function updateImage(transaction, results) {
         //Get the current row
         var row = results.rows.item(i);
         var source = row.image.substr(12);
-        alert(source)
         imgg.src = source;
     }
 }
