@@ -61,7 +61,7 @@ function Academic() {
     var catt1 = ["Academic Clubs", ""];
     document.getElementById("test").innerHTML = catt1[0];
     document.getElementById("test2").innerHTML = catt1[1];
-	document.getElementById("thumbnail").className= "unhidden";
+    document.getElementById("thumbnail").className= "unhidden";
 	 
     if (mydb) {
 		mydb.transaction(function(t) {
@@ -69,7 +69,8 @@ function Academic() {
 		t.executeSql("SELECT image FROM clubsdata WHERE category = 4", [], updateImage);
 		/*src.innerHTML = dataimg;*/
 		})
-}	else {
+}	
+	else {
 		alert("db not found!");
 	}	
 }
