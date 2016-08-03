@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="Logo.png">
+<!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+    <!--<link href='style.css' rel='stylesheet'>-->
+<meta charset="utf-8">
+<meta name="viewport"content="width=device-width, initial-scale=1">
+<!--Lashide verson-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!--jQuery library-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<!--lashide javascript-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="HomePage.css">
+<script src="HomePage.js"></script>
+</head>
+<style>
+body {
+    font-family: 'Trocchi', bold-sans serif;
+}
+p {
+	font-size: 16px;
+	color: black;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(230, 230, 230, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000073;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    background-color: white;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+.navbutton {
+    background-color: rgba(230, 230, 230, 0.0);
+    border: none;
+	width: 100%;
+    color: #000073;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	
+}
+.navbutton:hover {
+	background-color: white;
+}
+.hidden {
+	display: none;
+}
+.unhidden {
+	display: block;
+}
+</style>
+<body >
+<!--SIDE BAR-->
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Username</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Home</a>
+    <a href="#about">Likes</a>
+    <a href="#notifications">Notifications</a>
+    <a href="#log out">Log Out</a>
+  </div>
+</div>
+
+<div class="topcorner">
+    <a href="home.php"></a></div>
+<header>CLUBIFIED</header>
+<img src="Logo.png" class="pushpic" id="club">
+<!--SIDE BAR-->
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+  <a href="websitev2.html" type="button" class="navbutton">Home</a>
+  <button type="button" onclick="Academics()" class="navbutton">Academic</button>
+  <button type="button" onclick="Honor()" class="navbutton">Honor Societies</button>
+  <button type="button" onclick="Service()" class="navbutton">Service</button>
+  <button type="button" onclick="Social()" class="navbutton">Social Awareness</button>
+  <button type="button" onclick="SGA()" class="navbutton">Student Government</button>
+  <button type="button" onclick="Other()" class="navbutton">Other</button>
+</div>
+
+<div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="ribbon.png" class="rotate90"></span>
+    
+<!--SIDE BAR DONE-->
+<center><a class="clubcreatebutton" href="ClubForm.html">Create a club</a></center>
+<div class="unhidden" id="homee">
+<h2 id="hide"> FEATURES</h2>
+<div id="hide2">
+<center>
+    <p>CLUBIFIED allows studnets to 'create a club' in the sense that they can add a club to the system and showcase it in the website.</p>
+    <p> Students can interact by sharing ideas and give advice through the comments.</p>
+    <p>The Category button will display a side bar providing all the categories and their corresponding web page.</p>
+    <p>Club and organizations will be tagged in order to provide an effiecnt search system.</p>
+    <p>Users are encouraged to tag a club by its category, hosting school, and other key words to provide a more advanced search.</p>
+</center>
+<h3>OUR MISSION</h3>
+<center>
+    <p> CLUBIFIED was created as a platform for students to promote how to make a change in the world through clubs and club activites.</p>
+    <p> Our mission is to inspire students to create impactive clubs in thier schools and communities and encourage thier generation
+    to make a change.</p>
+    <p>CLUBIFIED is for the students, to the students, by the students.</p>
+</center>
+
+<h4>ABOUT US</h4>
+<!--about us-->
+<center>
+<div class="ui link items">
+    <div class="item">
+        <div class="ui tiny image">
+            <img src="">
+        </div>
+        <div class="content">
+            <div class="header"id="name">
+                The Team
+            </div>
+            <p>
+            <div class="description">
+                <p>Team Queen includes Daniela, Grace, Jordan, and Oluoma.</p>
+                <p> Daniela and Oluoma attend Jose Marti MAST 6-12 Academy. Grace attends the School for Advanced Studies
+                and Jordan attends Dr. Michael Krop High School.</p>
+                <p>The girls met at the Girls Who Code Summer Immersion Program, where Team Queen was formed.</p>
+                <p> For their final project, Team Queen birthed CLUBIFIED, a student interactive website to promotes
+                important causes through clubs and school activities.</p>
+                <p>Their passion to make an impact in the world encouraged them to seek out thier generation for participation.</p>
+                <p>From the streets of Miami, they hope to reach students across the nation.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</center>
+</div> 
+</div>
+<!--<style>
+.hidden{
+    display:none;
+}
+.unhidden{
+    display:block;
+}
+</style>-->
+
+<div class="hidden" id="thumbnail">
+	<div class="row">
+	  <div class="col-sm-6 col-md-4">
+		<div class="thumbnail">
+			<img src="" alt="" id="imgg">
+			<div class="caption">
+				<h3 id="pop" class="thumbstyle">Math Club</h3>
+				<p>...</p>
+				<!--<p><a href="#" "class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>-->
+			</div>
+		</div>
+	  </div>
+	</div>
+</div>
+</div>
+<!--about us-->
+
+
+
+<!--</div>-->
+<div id= "site-info">
+<div class="pagewidth">
+<small>
+Copyright © 2016 TEAM QUEEN
+</small>
+</div>
+</div>
+</div>
+</body>
+
+
+</html>

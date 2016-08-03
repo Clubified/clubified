@@ -1,0 +1,286 @@
+header{
+    background-color: #000073;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    font-family:'Trocchi', bold-sans serif;
+}
+#club{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 10%;
+}
+h2 {font-family:'Trocchi', bold-sans serif; 
+        font-size: 40px; 
+        padding: 18px; 
+        color: white; 
+        background-color: #ff8f7e; 
+        clear: left; 
+        text-align:center;
+}
+
+h3{ font-family:'Trocchi', bold-sans serif;
+    font-size: 40px; 
+    padding: 18px; 
+    color: white; 
+    background-color: #000073; 
+    clear: left; 
+    text-align:center;
+}
+
+h4{ font-family:'Trocchi', bold-sans serif;
+    font-size: 40px; 
+    padding: 18px; 
+    color: white; 
+    background-color: #ff8f7e; 
+    clear: left; 
+    text-align:center;
+}
+#name{
+    font-family:'Trocchi', bold-sans serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+#site-info {
+    background: #000;
+    color: #fff;
+    height: 30px;
+    font: normal 300 11px/30px "ProximaNova","Helvetica Neue", Arial, sans-serif;
+}
+.pagewidth {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+/*nav button*/
+.rotate90 {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    top: 200px;
+    left: 5px;
+    position: fixed;
+    width: 60px;
+    height: 75px;
+}
+/**about us**/
+
+
+
+/**about us**/
+
+/**SIDE BAR**/
+
+/* Initial body */
+/*body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}*/
+
+/* Initial menu */
+.menu {
+  //**background: #202024 repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+/* Basic styling */
+.jumbotron {
+  background-image:; 
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.icon-menu i {
+  margin-right: 5px;
+}
+/**SIDE BAR DONE**/
+/*userdrop*/
+.dropbtn {
+    background-color: #00008B;
+    color: white;
+    padding: 16px;
+    width: 130px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #0000FF;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+	font-size: 16px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1;}
+
+.show {display:block;}
+
+
+body {
+    font-family: 'Trocchi', bold-sans serif; 
+}
+p {
+	font-size: 16px;
+	color: black;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(230, 230, 230, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000073;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover, .offcanvas a:focus{
+    background-color: white;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+.navbutton {
+    background-color: rgba(230, 230, 230, 0.0);
+    border: none;
+	width: 100%;
+    color: #000073;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	
+}
+.navbutton:hover {
+	background-color: white;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* CSS code for create a club button*/
+a:link.clubcreatebutton, a:visited.clubcreatebutton {
+    background-color: #000073;
+    color: white;
+    line-height: 250px;
+    font-family: 'Trocchi', bold-sans serif;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 35%;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a:hover.clubcreatebutton, a:active.clubcreatebutton {
+    background-color: #ff8f7e;
+    box-shadow: 10px 10px 5px grey;
+}
+/*end of CSS code for create a club button*/
+.hidden{
+    display:none;
+}
+.unhidden{
+    display:block;
+}
+.thumbstyle{
+    font-family:'Trocchi', bold-sans serif;
+    font-size: 30px; 
+    padding: 0; 
+    color: black;
+    background-color: white;
+    text-align:center;
+}
